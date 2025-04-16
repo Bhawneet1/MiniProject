@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Gidole&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:wght@500&family=Roboto:ital,wght@0,100..900;1,100..900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+html,body{
+  height: 100%;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.nav{
+ height:88px;
+ width: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ padding: 10px 40px;
+}
+
+.nav .H1 h1 span{
+   color: cadetblue;
+}
+.options{
+  display: flex;
+  gap: 40px;
+}
+
+
+.nav-options .options a{
+  text-decoration: none;
+  color: black;
+}
+.nav-options .options .home{
+  color: cadetblue;
+}
+
+.Login{
+  height: 30px;
+  width: 70px;
+  background-color: white;
+  border-radius: 5px;
+  padding: 2px;
+}
+
+.Signup{
+  height: 30px;
+  width: 70px;
+  background-color:cadetblue;
+  color: white;
+  border: none;
+  border-radius:5px ;
+  padding: 2px;
+}
+
+.form{
+  height: 475px;
+  width: 400px;
+  border: 2px solid rgb(220, 215, 215);
+  margin: 0 auto;
+  border-radius:20px ;
+  padding: 10px;
+}
+.formData{
+  text-align: center;
+}
+.full{
+  margin-top: 10px;
+}
+.full label{
+  margin-right: 220px;
+}
+.full input{
+  height: 40px;
+  width: 300px;
+  border-radius: 10px;
+  border: 2px solid black;
+  padding-left: 5px; 
+}
+.email{
+  margin-top: 10px;
+}
+.email label{
+  margin-right: 255px;
+}
+.email input{
+  height: 40px;
+  width: 300px;
+  border-radius: 10px;
+  border: 2px solid black;
+  padding-left: 5px; 
+}
+.phone{
+  margin-top: 10px;
+}
+.phone label{
+  margin-right: 179px;
+}
+.phone input{
+  height: 40px;
+  width: 300px;
+  border-radius: 10px;
+  border: 2px solid black;
+  padding-left: 5px; 
+}
+
+.password{
+  margin-top: 10px;
+}
+.password label{
+  
+  margin-right: 220px;
+}
+.password input{
+  height: 40px;
+  width: 300px;
+  border-radius: 10px;
+  border: 2px solid black;
+  padding-left: 5px; 
+}
+
+.student-user{
+  margin-top: 10px;
+  display: flex;
+  margin-left: 40px;
+  gap: 40px;
+}
+.btn{
+  margin-top: 20px;
+  height: 40px;
+  width: 100px;
+  border-radius:20px ;
+  border: none;
+  background-color: cadetblue;
+  color: white;
+}
+
+.btn:hover{
+  cursor: pointer;
+
+  box-shadow: 2px 2px 2px black ;
+}
+
+.btn:active{
+
+  background-color: rgb(64, 107, 109);
+}
